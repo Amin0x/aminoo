@@ -8,7 +8,9 @@
 * Offers and discounts.
 * Companies and organization.
 * Notification and watching.
-* Stores location and maps 
+* Stores location and maps.
+* Email notifications 
+* SMS notifications 
 
 
 ## Admin Portal 
