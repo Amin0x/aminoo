@@ -1,6 +1,10 @@
-  spring:
+spring:
      datasource:
        url: jdbc:mysql://localhost/proddb
        driver-class-name: com.mysql.cj.jdbc.Driver
        username: produser
        password: securepassword
+jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true 
