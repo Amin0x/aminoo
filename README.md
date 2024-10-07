@@ -1,6 +1,6 @@
 # aminoo priceses comparison and recommendations app
 
-(https://raw.githubusercontent.com/Amin0x/aminoo/refs/heads/main/original-f743bf682516859a6b37c4f067fd3ebc.jpg)[]
+![](https://raw.githubusercontent.com/Amin0x/aminoo/refs/heads/main/original-f743bf682516859a6b37c4f067fd3ebc.jpg)
 
 * You can register as user and start adding products information.
 * Show products catalog and list of products recommended with the best prices.
