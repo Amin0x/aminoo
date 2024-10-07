@@ -5,6 +5,10 @@
 * Show products catalog and list of products recommended with the best prices.
 * User reviews.
 * Product prices charts.
+* Offers and discounts.
+* Companies and organization.
+* Notification and watching.
+
 
 
 ## Admin Portal 
