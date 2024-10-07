@@ -9,8 +9,9 @@
 * Companies and organization.
 * Notification and watching.
 * Stores location and maps.
-* Email notifications 
-* SMS notifications 
+* Email notifications.
+* SMS notifications.
+* Users profiles.
 
 
 ## Admin Portal 
