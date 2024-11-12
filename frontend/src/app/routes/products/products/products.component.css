@@ -1,0 +1,22 @@
+products-list {
+  desplay: flex;
+}
+
+product-list product-card {
+  flex: 1 0 20rem;
+}
+
+product-list category {
+  desplay: flex;
+  font-size: 20px;
+}
+
+prod-img {}
+prod-name {}
+prod-price {}
+prod-desc {}
+prod-discount {}
+category {}
+
+
+
