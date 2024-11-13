@@ -1,3 +1,13 @@
+.product-image {
+  width: 100%; /* Make the image fill its container's width */
+}
+
+.product-image img {
+  width: 100%; /* Make the image fill its container's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
 .favorite-button {
   background-color: transparent;
   border: none;
