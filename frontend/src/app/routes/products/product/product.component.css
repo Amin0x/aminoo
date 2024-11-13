@@ -8,3 +8,12 @@
   color: red; /* Adjust the color as needed */
   font-size: 24px; /* Adjust the size as needed */
 }
+
+.favorite-button:hover {
+  background-color: lightgray; /* Adjust the hover color as needed */
+}
+
+.favorite-button.active {
+  color: pink; /* Adjust the active color as needed */
+}
+
