@@ -1,22 +1,22 @@
-products-list {
+.products-list {
   desplay: flex;
 }
 
-product-list product-card {
+.product-list .product-card {
   flex: 1 0 20rem;
 }
 
-product-list category {
+.product-list .category {
   desplay: flex;
   font-size: 20px;
 }
 
-prod-img {}
-prod-name {}
-prod-price {}
-prod-desc {}
-prod-discount {}
-category {}
+.product-list .prod-img {}
+.product-list .prod-name {}
+.product-list .prod-price {}
+.product-list .prod-desc {}
+.product-list .prod-discount {}
+.product-list .category {}
 
 
 
