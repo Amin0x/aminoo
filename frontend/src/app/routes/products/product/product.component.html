@@ -1,15 +1,15 @@
 <main class="warper">
   <div class=""></div>
-  <div class="product-img"></div>
-  <div class="product-detail">
+  <div class="prod-img"></div>
+  <div class="prod-details">
     <img src=""/>
     <p class="price">12,500 SDG</p>
     <p class="description">Lorem die sind oder den die sind sind die </p>
     <p>product works!</p>
   </div>
-  <div class="simular-product">
-    <div></div>
-    <div></div>
-    <div></div>
+  <div class="simular-products">
+    @for (prod : prodects; trace prod.id){
+      <div class="product-card"></div>
+    }
   </div>
 </main>
