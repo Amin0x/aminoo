@@ -2,7 +2,10 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  border-radius: 50%; /* Makes the button circular */
+  padding: 10px; /* Adjust the padding as needed */
 }
+
 
 .favorite-button i {
   color: red; /* Adjust the color as needed */
