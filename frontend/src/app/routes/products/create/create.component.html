@@ -26,6 +26,11 @@
   <input type="number" id="productPrice" name="productPrice">
 </div>
 
+<div class="drop-zone" (dragover)="onDragOver($event)" (drop)="onDrop($event)">
+  <span class="drop-zone__prompt">Drop image here or click to select file</span>
+  <input type="file" #fileInput (change)="onFileSelected($event)" hidden>
+</div>
+
   <div>
   <input type="submit" name="submit">
   </div>
