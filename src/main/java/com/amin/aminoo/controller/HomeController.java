@@ -19,6 +19,12 @@ public class HomeController {
     public List<User> getHome() {
         return userService.getAllUsers();
     }
-
     
+    private List<User> getBestProducts() {
+        return userService.getAllUsers();
+    }
+
+    private List<User> getCatogries() {
+        return userService.getAllUsers();
+    }
 }
