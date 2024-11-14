@@ -15,9 +15,17 @@ public class HomeController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private CategoryService categoryService;
+
+    @Autowired
+    private ProductService productService;
+
+
     @GetMapping
     public List<User> getHome() {
-        return userService.getAllUsers();
+        List<Product> products = productService.getAllProducts();
+        List<Category> categories = categoryService.getAllCategories();
     }
     
     private List<User> getBestProducts() {
