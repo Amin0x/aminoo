@@ -17,6 +17,7 @@ public class Price {
     private Long id;
     private Long price;
     private Long priceUsd;
+    private Long productId;
 
     // other fields, getters, and setters
 }
