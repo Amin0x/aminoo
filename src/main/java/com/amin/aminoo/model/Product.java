@@ -6,6 +6,8 @@ public class Product {
     private String name;
     private String description;
     private double price;
+    private double price2;
+    private String tags;
 
     // Getters and Setters
 }
