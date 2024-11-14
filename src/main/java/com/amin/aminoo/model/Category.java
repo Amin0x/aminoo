@@ -13,6 +13,7 @@ public class Category {
     private Long id;
     private String name;
     private String description;
+    private Long parentId;
 
     // Getters and Setters
     public Long getId() {
@@ -37,5 +38,13 @@ public class Category {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getParentId() {
+        return parentId;
+    }
+
+    public void setParentId(String parentId) {
+        this.parentId = parentId;
     }
 }
