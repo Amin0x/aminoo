@@ -1,0 +1,69 @@
+/* Adjust styles as needed to match your design */
+.wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.wrapper.active {
+  transform: translateX(0);
+}
+
+.menu-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-btn span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-btn span:nth-child(2) {
+  margin-top: 10px;
+}
+
+.menu-btn.active span:nth-child(1) {
+  transform: rotate(45deg) translateX(8px);
+}
+
+.menu-btn.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-btn.active span:nth-child(3) {
+  transform: rotate(-45deg) translateX(-8px);
+}
+
+.close {
+  display: none; /* Hide initially */
+}
+
+.wrapper.active .close {
+  display: block;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
