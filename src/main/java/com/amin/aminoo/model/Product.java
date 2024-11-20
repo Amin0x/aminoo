@@ -8,6 +8,7 @@ public class Product {
     private double price;
     private double price2;
     private String tags;
+    private Long vendorId;
 
     // Getters and Setters
 }
